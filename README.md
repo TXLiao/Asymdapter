@@ -1,4 +1,4 @@
-# Asymdapter (PET)
+# Asymdapter
 
 This repository contains the official implementation of **Asymdapter**, proposed in:
 
