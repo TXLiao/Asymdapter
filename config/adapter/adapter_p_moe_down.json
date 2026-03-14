@@ -1,0 +1,22 @@
+{
+  "low_rank_adapters": false,
+  "hypercomplex_adapters": false,
+  "add_layer_norm_before_adapter": false,
+  "add_layer_norm_after_adapter": false,
+  "adapter_moe_up_sampler": false,
+  "adapter_moe_down_sampler": true,
+  "adapter_moe_gate": false,
+  "adapter_moe_up_down_sampler": false,
+  "expert_num": 4,
+  "num_top_k_expert": 2,
+  "reduction_factor": 32,
+  "learn_phm":true,
+  "add_adapter_in_self_attention": true,
+  "add_adapter_in_feed_forward": false,
+  "shared_phm_rule": false,
+  "factorized_phm": false,
+  "hypercomplex_division": 12,
+  "phm_c_init": "normal",
+  "phm_init_range": 0.01,
+  "freeze": 1
+}

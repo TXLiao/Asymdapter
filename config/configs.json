@@ -1,0 +1,37 @@
+{
+  "tte_finetune": {
+    "MLP_TTE": {
+      "dataset_config": "dataset_finetune",
+      "executor_config": "tte_finetune_executor",
+      "model_config": "MLPTTE4simPRL"
+    }
+  },
+  "reg_finetune": {
+    "MLP_REG": {
+      "dataset_config": "dataset_finetune",
+      "executor_config": "reg_finetune_executor",
+      "model_config": "MLPREG4SimPRL"
+    }
+  },
+  "cls_finetune": {
+    "MLP_CLS": {
+      "dataset_config": "dataset_finetune",
+      "executor_config": "cls_finetune_executor",
+      "model_config": "MLPCLS4simPRL"
+    }
+  },
+  "pr_finetune": {
+    "MLP_PR": {
+      "dataset_config": "dataset_finetune",
+      "executor_config": "pr_finetune_executor",
+      "model_config": "MLPPR4SimPRL"
+    }
+  },
+  "mt_finetune": {
+    "MultiTaskModel": {
+      "dataset_config": "dataset_mt_finetune",
+      "executor_config": "mt_finetune_executor",
+      "model_config": "MultiTaskModel"
+    }
+  }
+}
