@@ -79,14 +79,13 @@ python main.py --help
 
 ```bash
 @article{Asymdapter,
-title = {Asymdapter: Asymmetric Adapter Architecture for Efficient Fine-Tuning of Segment-based Trajectory Representation Models},
+title = {Asymdapter: Asymmetric adapter architecture for efficient fine-tuning of segment-based trajectory representation models},
 journal = {Knowledge-Based Systems},
+volume = {340},
 pages = {115742},
 year = {2026},
 issn = {0950-7051},
 doi = {https://doi.org/10.1016/j.knosys.2026.115742},
 url = {https://www.sciencedirect.com/science/article/pii/S0950705126004752},
 author = {Tianxi Liao and Xuxiang Ta and Liangzhe Han and Yi Xu and Leilei Sun and Weifeng Lv},
-keywords = {Intelligent transportation system, Efficient fine-tuning, Representation learning, Domain generalization}
-}
 ```
